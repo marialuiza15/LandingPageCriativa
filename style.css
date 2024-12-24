@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f0ecf9;
+    color: #5f5dc9;
+    line-height: 1.6;
+}
+
+.container {
+
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu {
+    background-color: #282850;
+    padding: 10px 0;
+}
+
+.img1{
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: #f0ecf9;
+    color: #5f5dc9;
+    border-radius: 2px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.hero .buttons {
+    margin-top: 20px;
+}
+
+.hero .buttons a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.features, .team, .testimonials {
+    text-align: center;
+}
+
+.features h2, .team h2, .testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.features .cards, .team .members, .testimonials .slides {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.card, .member, .testimonial {
+    background: #282850;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.card h3, .testimonial h3, .member h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.download {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.download a {
+    text-decoration: none;
+    background: #00b4d8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background: #282850;
+    color: white;
+}
